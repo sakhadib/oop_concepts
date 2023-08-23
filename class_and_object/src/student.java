@@ -19,6 +19,8 @@ public class student {
         this.name = name;
     }
 
+    //c
+
     // methods
     public void add_department(String department) {
         this.department = department;

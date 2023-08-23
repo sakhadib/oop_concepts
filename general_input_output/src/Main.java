@@ -22,8 +22,8 @@ public class Main {
         //Taking a string input and appending it with another to print a hello messege
         Scanner scanner = new Scanner(System.in);   // there is no builtin console_readline for JAVA. we have to use scanner
         System.out.println("what is your name...");
-        //String s6 = scanner.nextLine();
-        //System.out.println("Welcome onboard. You are, " + s6);
+        String s6 = scanner.nextLine();
+        System.out.println("Welcome onboard. You are, " + s6);
 
         //Taking two integer and adding them.
         int i1 = 10;

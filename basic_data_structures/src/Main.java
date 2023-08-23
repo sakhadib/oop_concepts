@@ -61,10 +61,11 @@ public class Main {
         myMap.put("Raisa", 12);
         myMap.put("Nazifa", 14);
         myMap.put("Nafisa", 15);
+        myMap.put("Abrar", 28);
 
-        String input = scanner.nextLine();
+        String abcd = scanner.nextLine();
         // Accessing the value of the specified key
-        System.out.println("Id of " + input + " is " + myMap.get(input));
+        System.out.println("Id of " + abcd+ " is " + myMap.get(abcd));
 
 
     }

@@ -6,7 +6,11 @@ public class Main {
 
         System.out.println("\n");
         // Creating an object of the class student
-        student student1 = new student(1, "John", "Computer Science");
+        student student1 = new student(1, "Abrar", "Computer Science");
+        student1.print_student();
+
+        System.out.println("\n");
+        student1.add_department("software engineering");
         student1.print_student();
 
         System.out.println("\n");
